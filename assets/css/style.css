@@ -204,7 +204,7 @@ html,body{
 .navbar-brand,
 .navbar-brand:hover,
 .navbar-brand:focus{
-	margin-top: 33px;
+	margin-top: 20px;
 	padding:0;
 }/* navbar-brand */
 
@@ -212,19 +212,19 @@ html,body{
 .wrapper-sticky{
 	position: relative;
 	display: inline-block;
-	background: rgba(230,124,59,1);
+	background: #212135;
 }
 
 /* sticky */
 .sticky{
-	background: rgba(230,124,59,1);
+	background: #212135;
 	padding: 10px 0px 0px;
 	height:80px;
 	color: #fff;
 }
 
 .sticky  .navbar-brand{
-	margin-top:20px;
+	margin-top: 0px;
 }
 .sticky  .navbar-default .navbar-nav li a,
 .sticky  .navbar-default .navbar-nav li a:active,
@@ -237,7 +237,7 @@ html,body{
 .sticky .navbar-default .navbar-toggle:focus,
 .sticky .navbar-default .navbar-toggle:hover {
     background-color: transparent;
-    border: 1px solid #000;
+    border: 1px solid #fff;
     margin-top: 15px;
 }/* sticky */
 
@@ -290,11 +290,11 @@ html,body{
 .navbar-default .navbar-toggle:focus,
  .navbar-default .navbar-toggle:hover {
     background-color: transparent;
-    border: 1px solid #000;
+    border: 1px solid #fff;
     margin-top: 25px;
 }
 .navbar-default .navbar-toggle .icon-bar {
-    background-color: #000;
+    background-color: #fff;
 
 }/* navbar-toggle*/
 
@@ -394,17 +394,22 @@ html,body{
 	 border: 1px solid #fff;
 }
 .single-slide-item.slide-1 {
-	background-image:url(../../assets/images/banner/banner1.jpg);
+	background-image:url(../../assets/images/banner/banner1.png);
 	position:relative;
 	z-index:1;
 }
 .single-slide-item.slide-2 {
-	background-image:url(../../assets/images/banner/banner2.jpg);
+	background-image:url(../../assets/images/banner/banner2.png);
 	position:relative;
 	z-index:1;
 }
-.single-slide-item.slide-1:before,.single-slide-item.slide-2:before{
-	background:rgba(115,112,215,.6);
+.single-slide-item.slide-3 {
+	background-image:url(../../assets/images/banner/banner3.png);
+	position:relative;
+	z-index:1;
+}
+.single-slide-item.slide-1:before,.single-slide-item.slide-2:before,.single-slide-item.slide-3:before{
+	background:rgba(32, 26, 234, 0.10);
 	position:absolute;
 	left:0;
 	top:0;
@@ -609,7 +614,7 @@ html,body{
 		5. About
 --------------------------------------*/
 .about-us{
-	background: #f9faff;
+	background: #f5f5f5;
 	padding: 120px 0 175px;
 }
 .about-us-txt{
@@ -1661,7 +1666,7 @@ a:active.learn-btn{
 .foot-email-subscribe button{
     width:65px;
     height:65px;
-    background: #7370d8;
+    background: #f67b2a;
 	font-size:14px;
     color: #fff;
     text-transform: uppercase;
@@ -1708,7 +1713,7 @@ a:active.learn-btn{
 		17. Footer- copyright
 --------------------------------------*/
 .footer-copyright {
-	background:#1a1a2a;
+	background:#212135;
 	padding: 30px 0 35px;
 }
 .foot-copyright{
@@ -2205,8 +2210,8 @@ a:active.learn-btn{
     cursor: pointer;
     z-index:15;
     color: #fff;
-    background:#7370d8;
-	border:1px solid #7370d8;
+    background:#212135;
+	border:1px solid #fff;
 	border-radius:5px;
 	-webkit-transition: .5s;
 	-moz-transition:.5s;
@@ -2216,9 +2221,9 @@ a:active.learn-btn{
 	z-index: 2;
 }
 #scroll-Top  .return-to-top:hover {
-    background:#7370d8;
+    background:#212135;
     color: #fff;
-	border:1px solid #7370d8;
+	border:1px solid #fff;
 	border-radius:50%;
 }
 
