@@ -6,7 +6,7 @@
 
 /*==================================
 
-font-family: 'Playfair Display', serif;
+font-family: 'Poppins', serif;
 font-family: 'Poppins', sans-serif;
 font-family: 'Lato', sans-serif;
 
@@ -350,11 +350,12 @@ html,body{
 .single-slide-item h2 {
 	color:#fff;
 	font-size:70px;
-	font-weight:500;
+	font-weight:600;
 	line-height: 1.28;
-	margin-bottom: 27px;
-	font-family: 'Playfair Display', serif;
+	margin-bottom: 10px;
+	font-family: 'Poppins', serif;
 	text-transform: capitalize;
+	text-shadow: #333 0px 0px 10px;
 }
 .single-slide-item p {
 	color:#fefefe;
@@ -363,6 +364,7 @@ html,body{
 	font-family: 'Lato', sans-serif;
     line-height: 1.5;
 	margin-bottom:51px;
+	text-shadow: #333 0px 0px 10px;
 }
 .single-slide-item button.slide-btn,
 .single-slide-item  button:active .slide-btn ,
@@ -519,7 +521,7 @@ html,body{
 .section-header h2{
 	color: #44454f;
 	font-size: 30px;
-	font-family: 'Playfair Display', serif;
+	font-family: 'Poppins', serif;
 	font-weight: 700;
 }
 .section-header h2 span{
@@ -562,7 +564,7 @@ html,body{
 }
 /* we-do-info */
 .we-do-info {
-	font-family: 'Playfair Display', serif;
+	font-family: 'Poppins', serif;
 	text-transform: capitalize;
 }
 .we-do-img {
@@ -623,7 +625,7 @@ html,body{
 .about-us h2 {
 	color:#4d4e54;
 	font-size:30px;
-	font-family: 'Playfair Display', serif;
+	font-family: 'Poppins', serif;
 	font-weight: 700;
 }
 .about-us p{
@@ -683,7 +685,7 @@ html,body{
 .service-txt h2 a{
 	color:#44454f;
 	font-size:24px;
-	font-family: 'Playfair Display', serif;
+	font-family: 'Poppins', serif;
 	padding: 47px 0 25px;
 }
 .service-txt p {
@@ -769,7 +771,7 @@ a:focus.service-btn{
 .project-header h2{
 	color: #44454f;
 	font-size: 30px;
-	font-family: 'Playfair Display', serif;
+	font-family: 'Poppins', serif;
 	font-weight: 700;
 }
 .project-header p{
@@ -1095,7 +1097,7 @@ a:active.learn-btn{
 .packeg_p{
 	color: #fff;
     font-size: 40px;
-    font-family: 'Playfair Display', serif;
+    font-family: 'Poppins', serif;
     padding-top: 30px;
     padding: 11px 0 11px;
     -webkit-transition:all 0.3s linear;
@@ -1282,7 +1284,7 @@ a:active.learn-btn{
     display:block;
     font-size:16px;
 	margin-bottom: 17px;
-	font-family: 'Playfair Display', serif;
+	font-family: 'Poppins', serif;
 	font-style: italic ;
 	max-width: 350px;
 	font-weight: 600;
@@ -1563,7 +1565,7 @@ a:active.learn-btn{
 	color:#fff;
 	font-size:20px;
 	margin-bottom: 32px;
-	font-family: 'Playfair Display', serif;
+	font-family: 'Poppins', serif;
 	text-transform: capitalize;
 }
 .hm-foot-title .logo{
@@ -1575,7 +1577,6 @@ a:active.learn-btn{
 	font-family: 'Poppins', sans-serif;
 	text-transform: lowercase;
 	text-transform: initial;
-    max-width: 260px;
 }/* hm-foot-title */
 
 /*hm-foot-icon*/
@@ -1778,7 +1779,7 @@ a:active.learn-btn{
 	color:#fff;
 	font-size:40px;
 	font-weight:700;
-	font-family: 'Playfair Display', serif;
+	font-family: 'Poppins', serif;
 	margin-bottom: 3px;
 	left: 15px;
 
@@ -1800,7 +1801,7 @@ a:active.learn-btn{
 	color:#dddcff;
 	font-size:20px;
 	font-weight:500;
-	font-family: 'Playfair Display', serif;
+	font-family: 'Poppins', serif;
 	text-transform:capitalize;
 }
 .breadcrumb li{
@@ -2003,7 +2004,7 @@ a:active.learn-btn{
     color: #4d4e54;
     font-size: 30px;
     font-weight: 700;
-    font-family: 'Playfair Display', serif;
+    font-family: 'Poppins', serif;
 	text-transform: capitalize;
 }
 .bl-single-head p{
